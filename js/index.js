@@ -7,12 +7,13 @@ img360.addEventListener("click",() => {
         img360.src = "image/x.png"
         console.log("mudou");
         imagSofa.dataset.name = "mobile"
-    }else {
+        return
+    }
         imagSofa.src = "image/sofa.png"
         img360.src = "image/360.png"
         console.log("mudou");
         imagSofa.dataset.name = "static"
 
-    }
+    
     
 })
